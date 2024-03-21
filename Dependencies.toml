@@ -285,7 +285,7 @@ modules = [
 
 [[package]]
 org = "nijakanthan"
-name = "testplannerserverballerina"
+name = "tripplannerserverballerina"
 version = "0.1.0"
 dependencies = [
 	{org = "ballerina", name = "http"},
@@ -293,6 +293,6 @@ dependencies = [
 	{org = "ballerinai", name = "observe"}
 ]
 modules = [
-	{org = "nijakanthan", packageName = "testplannerserverballerina", moduleName = "testplannerserverballerina"}
+	{org = "nijakanthan", packageName = "tripplannerserverballerina", moduleName = "tripplannerserverballerina"}
 ]
 
