@@ -1,6 +1,6 @@
 import ballerina/http;
 
-service / on new http:Listener(8181) {
+service /hello on new http:Listener(8181) {
     resource function get greeting(string name) returns string|error {
         // Send a response back to the caller.
         if name is "" {
