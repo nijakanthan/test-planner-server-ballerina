@@ -5,7 +5,6 @@
 
 [ballerina]
 dependencies-toml-version = "2"
-distribution-version = "2201.8.6"
 
 [[package]]
 org = "ballerina"
@@ -284,7 +283,7 @@ modules = [
 ]
 
 [[package]]
-org = "nijakanthan"
+org = "wso2"
 name = "tripplannerserverballerina"
 version = "0.1.0"
 dependencies = [
@@ -293,6 +292,6 @@ dependencies = [
 	{org = "ballerinai", name = "observe"}
 ]
 modules = [
-	{org = "nijakanthan", packageName = "tripplannerserverballerina", moduleName = "tripplannerserverballerina"}
+	{org = "wso2", packageName = "tripplannerserverballerina", moduleName = "tripplannerserverballerina"}
 ]
 
