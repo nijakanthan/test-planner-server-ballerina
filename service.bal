@@ -29,7 +29,7 @@ type HolidaysResponse record {
 };
 
 service / on new http:Listener(8181) {
-    resource function get version() returns json|error {
+    resource function get app_version() returns json|error {
         return {
             "version": "BAL 1.0.0"
         };
